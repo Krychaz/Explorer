@@ -1,7 +1,11 @@
 body {
+  font-family: 'Audiowide', cursive;
   background: #333;
   color: #fff; }
 
 .navbar {
   border-bottom: #c1440e 3px solid;
   opacity: 0.8; }
+
+.card-form {
+  background-color: #c1440e; }

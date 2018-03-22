@@ -4,6 +4,7 @@ $primary-color:#c1440e;
 
 
 body{
+  font-family: 'Audiowide', cursive;
   background:$bg-color;
   color:$font-color;
 }
@@ -11,4 +12,8 @@ body{
 .navbar{
   border-bottom: $primary-color 3px solid;
   opacity: 0.8;
+}
+
+.card-form{
+  background-color: $primary-color;
 }
