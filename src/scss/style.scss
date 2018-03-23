@@ -1,6 +1,7 @@
 $bg-color:#333;
 $font-color:#fff;
 $primary-color:#c1440e;
+$second-color:#ecdfdf;
 $dark-overlay: rgba(0,0,0,0.4);
 
 body{
@@ -15,9 +16,7 @@ body{
 }
 
 //Form Color
-.card-form{
-  background-color: $primary-color;
-}
+
 
 #home-section{
   background:url('../img/mars.jpg') no-repeat;
@@ -37,7 +36,14 @@ body{
   .home-inner{
     padding-top:130px;
 
-
+  }
+  .card-form{
+    background-color: $primary-color;
+    opacity: 0.8;
   }
 
+}
+
+#explore-section{
+  background-color: $second-color;
 }

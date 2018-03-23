@@ -7,9 +7,6 @@ body {
   border-bottom: #c1440e 3px solid;
   opacity: 0.8; }
 
-.card-form {
-  background-color: #c1440e; }
-
 #home-section {
   background: url("../img/mars.jpg") no-repeat;
   background-size: cover;
@@ -24,3 +21,9 @@ body {
     min-height: 700px; }
   #home-section .home-inner {
     padding-top: 130px; }
+  #home-section .card-form {
+    background-color: #c1440e;
+    opacity: 0.8; }
+
+#explore-section {
+  background-color: #ecdfdf; }
